@@ -105,7 +105,7 @@ h1, h2, h3, h4, h5, h6 {
 # Navigation Menu
 --------------------------------------------------------------*/
 /**
-* Desktop Navigation 
+* Desktop Navigation
 */
 .navbar {
   padding: 0;
@@ -194,7 +194,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /**
-* Mobile Navigation 
+* Mobile Navigation
 */
 .mobile-nav-toggle {
   color: #151515;
@@ -289,10 +289,10 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/mbrimage1.jpeg");
+  background: url("../img/mbrbgcropped.jpeg");
   background-size: cover;
-  position: relative; 
-} 
+  position: relative;
+}
 
 #hero .hero-container {
   position: absolute;
@@ -505,7 +505,7 @@ section {
     opacity: 1;
   }
 }
- 
+
 /*--------------------------------------------------------------
 # Shop
 --------------------------------------------------------------*/
@@ -1329,5 +1329,4 @@ section {
   text-align: center;
   font-size: 13px;
   padding-top: 5px;
-} 
- 
+}
