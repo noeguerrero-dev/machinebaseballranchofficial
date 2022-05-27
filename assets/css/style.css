@@ -397,6 +397,15 @@ section {
   color: #aeaeae;
 }
 
+.section-title a {
+  text-decoration: none;
+  color: #d81111;
+}
+
+.section-title a:hover { 
+  color: #eb3232;
+  text-decoration: none;  
+}
 /*--------------------------------------------------------------
 # About Us
 --------------------------------------------------------------*/
@@ -1330,6 +1339,15 @@ section {
   font-size: 13px;
   padding-top: 5px;
 }
+#footer .credits a {
+  text-decoration: none;
+  color: #d81111;
+}
+#footer .credits a:hover { 
+  color: #eb3232;
+  text-decoration: none;  
+}
+
 .btn-get-started {
   font-family: "Montserrat", sans-serif;
   text-transform: uppercase;
