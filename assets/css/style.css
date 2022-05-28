@@ -1468,3 +1468,22 @@ section {
   outline: 1px solid #d81111;
   outline-offset: 0px;
 }
+#scout .btn-get-started {
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 14px; 
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 3px;
+  margin: 10px;
+  color: #fff;
+  background: #d81111;
+}
+#scout .btn-get-started:hover {
+  transition: 0.5s;
+  background: #fff;
+  color: #d81111;
+  outline: 1px solid #d81111;
+  outline-offset: 0px;
+}   
