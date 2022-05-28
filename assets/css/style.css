@@ -1449,3 +1449,22 @@ section {
 .circle-border{
   border: 12px solid #fff;
 }
+
+#scout .btn-outline-secondary {
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 12px; 
+  display: inline-block;
+  padding: 9px 16px; 
+  color: #fff;
+  background: #d81111;
+  border: none;
+}
+#scout .btn-outline-secondary:hover {
+  transition: 0.5s;
+  background: #fff;
+  color: #d81111;
+  outline: 1px solid #d81111;
+  outline-offset: 0px;
+}
