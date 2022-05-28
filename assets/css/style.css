@@ -1398,7 +1398,23 @@ section {
   margin-right: .75rem;
   margin-left: .75rem;
 }  
+ 
+.row-scouting {
+  margin-left: -389px; 
+  padding-top: 8em;
+}
 
+@media (max-width: 1024px) { 
+  
+.row-scouting {
+  margin-left: -250px;
+}
+} 
+@media (max-width: 768px) {   
+  .row-scouting {
+    margin-left: -15px;
+  }
+}
 #alumni .btn-get-started {
   font-family: "Montserrat", sans-serif;
   text-transform: uppercase;
@@ -1418,4 +1434,18 @@ section {
   color: #d81111;
   outline: 1px solid #d81111;
   outline-offset: 0px;
+}   
+.scouting{
+  background: cover;
+  background:url("../img/banner.png");
+  height: 200px;
 } 
+
+.badge{
+  color: #fff;
+  background: #d81111;
+  font-weight: normal;
+}  
+.circle-border{
+  border: 12px solid #fff;
+}
