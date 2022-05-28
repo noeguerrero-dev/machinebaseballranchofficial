@@ -291,7 +291,7 @@ h1, h2, h3, h4, h5, h6 {
   height: 100vh;
   background: url("../img/mbrbgcropped.jpeg") no-repeat;
   background-size: cover;
-  position: relative;  
+  position: relative;      
 }
 
 #hero .hero-container {
@@ -345,6 +345,7 @@ h1, h2, h3, h4, h5, h6 {
 @media (min-width: 1024px) {
   #hero {
     background-attachment: fixed;
+    background-size: contain;
   }
   .logo-responsive{
     width: 100%;
@@ -1449,3 +1450,27 @@ section {
 .circle-border{
   border: 12px solid #fff;
 }
+
+.email-form .btn-get-started {
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 14px 30px;
+  border-radius: 3px;
+  margin: 10px;  
+  margin-top: 25px;
+  margin-left: 310px;
+  color: #fff;
+  background: #d81111; 
+}
+.email-form .btn-get-started:hover {
+  transition: 0.5s;
+  background: #fff;
+  color: #d81111;
+  outline: 1px solid #d81111;
+  outline-offset: 0px;
+  
+}   
