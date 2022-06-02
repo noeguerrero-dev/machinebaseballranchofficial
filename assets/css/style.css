@@ -1444,6 +1444,8 @@ section {
   color: #fff;
   background: #d81111;
   font-weight: normal;
+  
+  padding-top: 7px;
 }  
 .circle-border{
   border: 12px solid #fff;
